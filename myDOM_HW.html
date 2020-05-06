@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="myDOM_HW.css">
+	
+</head>
+<body>
+	<div id="map">
+		<button id="loc" class="button">Countries List</button>
+	</div>
+    
+    <div>
+    	<button id="myBtn" class="button">Open Modal </button>
+    	<div id="myModal" class="modal">
+    		<div class="modal-content">
+    			<span class="close">&infin;</span>
+    			<p>"We cross infinity with every step; we meet eternity in every second." RT&copy;</p>
+    		</div>
+    	</div>
+    </div>
+    <div>
+    	
+    </div>
+    <div>
+    	<button id="show" class="button" onclick="showPalette()">TO THE GARRAGE</button>
+    	<div id="palette">
+    		<div>
+    			<button id="audi" class="car button" onclick="getCar(this)">Audi</button>
+    			<button id="VW" class="car button" onclick="getCar(this)">VW</button>
+    			<button id="MERCEDES" class="car button" onclick="getCar(this)">MERCEDES</button>
+    			<button id="FERRARI" class="car button" onclick="getCar(this)">FERRARI</button>
+    			<button id="LAMBORGHINI" class="car button" onclick="getCar(this)">LAMBORGHINI</button>
+    		</div>
+    		<div>
+    			<button id="red" class="button red" style="background: red" onclick="getColor(this)" >red</button>
+    			<button id="orange" class="button orange" style="background: orange" onclick="getColor(this)">orange</button>
+    			<button id="yellow" class="button yellow" style="background: yellow" onclick="getColor(this)">yellow</button>
+    			<button id="green" class="button green" style="background: green" onclick="getColor(this)">green</button>
+    			<button id="blue" class="button blue" style="background: blue" onclick="getColor(this)">blue</button>
+    		</div>
+    	<button id="hide" class="button" onclick="hidePalette()">HIDE YOUR CARS</button>
+    	</div>
+	</div>
+<script type="text/javascript" src="myDOM_HW.js"></script>	
+</body>
+</html>
